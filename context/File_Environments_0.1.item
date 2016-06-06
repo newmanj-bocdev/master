@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_aW3NICL-EeafBP1Mbi7uSw" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_aW30MCL-EeafBP1Mbi7uSw" comment="" name="inputPath" prompt="inputPath?" promptNeeded="false" type="id_String" value="/home/ubuntu/inputFiles"/>
+    <contextParameter xmi:id="_aW30MSL-EeafBP1Mbi7uSw" comment="" name="outputPath" prompt="outputPath?" promptNeeded="false" type="id_String" value="/home/ubuntu/outputFiles/"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_aW30MiL-EeafBP1Mbi7uSw" confirmationNeeded="false" name="MacOs">
+    <contextParameter xmi:id="_aW30MyL-EeafBP1Mbi7uSw" comment="" name="inputPath" prompt="inputPath?" promptNeeded="false" type="id_String" value="/Users/john.newman/Documents"/>
+    <contextParameter xmi:id="_aW30NCL-EeafBP1Mbi7uSw" comment="" name="outputPath" prompt="outputPath?" promptNeeded="false" type="id_String" value="/Users/john.newman/Documents/outputFiles/"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_aW30NSL-EeafBP1Mbi7uSw" confirmationNeeded="false" name="Unix">
+    <contextParameter xmi:id="_aW30NiL-EeafBP1Mbi7uSw" comment="" name="inputPath" prompt="inputPath?" promptNeeded="false" type="id_String" value="/home/ubuntu/inputFiles"/>
+    <contextParameter xmi:id="_aW30NyL-EeafBP1Mbi7uSw" comment="" name="outputPath" prompt="outputPath?" promptNeeded="false" type="id_String" value="/home/ubuntu/outputFiles/"/>
+  </talendfile:ContextType>
+</xmi:XMI>

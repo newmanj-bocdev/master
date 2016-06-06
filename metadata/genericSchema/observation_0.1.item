@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_zLCAsBsDEeaJmY_3kDNhhA" name="repository.metadataGenericSchema" dataPackage="_zLCAsRsDEeaJmY_3kDNhhA" mappingTypeUsed="true" mappingTypeId="postgres_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_zLCAsRsDEeaJmY_3kDNhhA" name="repository.metadataGenericSchema" dataManager="_zLCAsBsDEeaJmY_3kDNhhA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zLCnwBsDEeaJmY_3kDNhhA" id="_jni6IBsCEeaJmY_3kDNhhA" label="observation">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zLCnwRsDEeaJmY_3kDNhhA" name="boc_observation_id" label="boc_observation_id" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zLCnwhsDEeaJmY_3kDNhhA" name="boc_etl_event_id" label="boc_etl_event_id" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zLCnwxsDEeaJmY_3kDNhhA" name="boc_norm_even_id" label="boc_norm_even_id" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zLCnxBsDEeaJmY_3kDNhhA" name="data_source_sub_id" label="data_source_sub_id" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zLCnxRsDEeaJmY_3kDNhhA" name="observation_id" label="observation_id" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zLCnxhsDEeaJmY_3kDNhhA" name="dedupe1_data" label="dedupe1_data" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zLCnxxsDEeaJmY_3kDNhhA" name="dedupe2_data" label="dedupe2_data" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zLCnyBsDEeaJmY_3kDNhhA" name="patient_id" label="patient_id" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zLCnyRsDEeaJmY_3kDNhhA" name="boc_patient_id" label="boc_patient_id" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zLCnyhsDEeaJmY_3kDNhhA" name="observation_status_local" label="observation_status_local" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zLCnyxsDEeaJmY_3kDNhhA" name="obeservation_status_mapped" label="obeservation_status_mapped" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zLCnzBsDEeaJmY_3kDNhhA" name="error_flag_local" label="error_flag_local" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zLCnzRsDEeaJmY_3kDNhhA" name="boc_exclusion_code" label="boc_exclusion_code" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zLCnzhsDEeaJmY_3kDNhhA" name="boc_dupe_flag" label="boc_dupe_flag" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zLCnzxsDEeaJmY_3kDNhhA" name="boc_test_code" label="boc_test_code" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zLCn0BsDEeaJmY_3kDNhhA" name="obs_document_prov_id" label="obs_document_prov_id" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zLCn0RsDEeaJmY_3kDNhhA" name="encounter_id" label="encounter_id" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zLCn0hsDEeaJmY_3kDNhhA" name="observation_code_local" label="observation_code_local" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zLCn0xsDEeaJmY_3kDNhhA" name="obervation_name_local" label="obervation_name_local" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zLCn1BsDEeaJmY_3kDNhhA" name="observation_code_mapped" label="observation_code_mapped" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zLCn1RsDEeaJmY_3kDNhhA" name="observation_value_local" label="observation_value_local" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zLCn1hsDEeaJmY_3kDNhhA" name="observation_unit_local" label="observation_unit_local" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zLCn1xsDEeaJmY_3kDNhhA" name="observation_value_mapped" label="observation_value_mapped" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zLCn2BsDEeaJmY_3kDNhhA" name="observation_unit_mapped" label="observation_unit_mapped" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zLCn2RsDEeaJmY_3kDNhhA" name="observation_performed_dttm" label="observation_performed_dttm" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zLCn2hsDEeaJmY_3kDNhhA" name="observation_recorded_dttm" label="observation_recorded_dttm" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
